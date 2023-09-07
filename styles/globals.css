@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles */
+@keyframes flashing {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 2;
+    }
+  }
+  
+  .animate-flashing {
+    animation: flashing 1s alternate infinite;
+  }
+  
+  @keyframes rainbow  {
+    0% {
+      color: #f56565; /* Red */
+    }
+    14% {
+      color: #ed8936; /* Orange */
+    }
+    28% {
+      color: #ecc94b; /* Yellow */
+    }
+    42% {
+      color: #48bb78; /* Green */
+    }
+    57% {
+      color: #4299e1; /* Blue */
+    }
+    71% {
+      color: #9f7aea; /* Indigo */
+    }
+    85% {
+      color: #ed64a6; /* Pink */
+    }
+    100% {
+      color: #f56565; /* Red */
+    }
+  }
+
+  .animate-rainbow {
+    animation: rainbow 5s linear infinite;
+  }
