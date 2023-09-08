@@ -4,7 +4,7 @@ import {Textarea} from "@nextui-org/react";
 import {Card, CardBody, Chip} from "@nextui-org/react";
 import Draggable from "react-draggable";
 import {Spacer} from "@nextui-org/react";
-import CommentForm from '../components/comment-form'
+
 
 let note_id_gb = ''
 let currentuser_gb = ''
